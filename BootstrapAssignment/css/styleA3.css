@@ -6,6 +6,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
   .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
@@ -26,20 +27,24 @@ body {
     font-size: 4vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 3.5vh;
-    left:35%;
+    left:30%;
   }
   /* used for icon display in footer to adjust their property */
   .fa {
-    padding: 3.5vw;
-    font-size: 5vw;
-    width: 5vw;
+    padding: 2vw;
+    font-size: 3vw;
+    width: 7vw;
     text-align: center;
     text-decoration: none;
     margin: 1vw 0.4vw;
     border-radius: 50%;
   }
+  p a{
+    color: #3F729B;
+  }
   footer{
-    background-color: grey;}
+    color: #772028;
+    background-color:#212121;}
   .fa:hover {
     opacity: 0.7;
 }
