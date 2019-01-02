@@ -1,4 +1,4 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import java.util.Arrays;
 

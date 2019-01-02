@@ -1,4 +1,4 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 public class Wordoccurence {
     public static int occurence(String s,String seq){

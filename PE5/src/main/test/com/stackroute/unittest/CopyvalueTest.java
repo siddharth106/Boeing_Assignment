@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 import static org.junit.Assert.*;
 
-public class copyvalueTest {
+public class CopyvalueTest {
 
     @Test
     public void copyvalue1() {

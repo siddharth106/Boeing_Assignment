@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class asorderTest {
+public class AsorderTest {
 
     @Test
     public void asorder1() {

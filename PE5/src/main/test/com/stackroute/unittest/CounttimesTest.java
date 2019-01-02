@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class counttimesTest {
+public class CounttimesTest {
 
     @Test
     public void count1() {

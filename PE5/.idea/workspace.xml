@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b04b7f0-c1f3-4671-a5dc-5585c0dbb369" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/ascorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/Asorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/copyvalue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/Copyvalue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/counttimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/unittest/Counttimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/ascorderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/asorderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/asorderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/AsorderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/copyvalueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CopyvalueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/countTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/counttimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CounttimesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/unittest/Counttimes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -34,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/unittest/NameArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,16 +53,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/asorderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/AsorderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/copyvalueTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CopyvalueTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
@@ -76,7 +71,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/countTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CountTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
@@ -85,10 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/counttimesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CounttimesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -97,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/NameArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="244">
-              <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -220,9 +215,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546423030399" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PE4" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -328,7 +324,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -406,14 +401,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/unittest/Counttimes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/unittest/NameArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -431,54 +426,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/asorderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/AsorderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/copyvalueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CopyvalueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/countTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/counttimesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/CounttimesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/NameArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/unittest/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
-          <caret line="93" column="19" lean-forward="true" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>unittest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

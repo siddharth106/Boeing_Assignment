@@ -1,10 +1,10 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class isHenryTest {
+public class IsHenryTest {
 
     @Test
     public void ishenry() {
