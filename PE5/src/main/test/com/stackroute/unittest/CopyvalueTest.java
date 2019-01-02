@@ -16,6 +16,6 @@ public class CopyvalueTest {
         HashMap<String,String>hm2=new HashMap();
         hm2.put("val1","");
         hm2.put("val2","java");
-        assertEquals(hm2,Copyvalue.copyvalue1(hm1));
+        assertEquals(hm2,Copyvalue.copyVal(hm1));
     }
 }

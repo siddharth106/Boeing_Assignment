@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Count {
 
-    public static String[] count1(String str){
+    public static String[] times(String str){
 
         Hashtable<String,Integer>hm=new Hashtable();
 

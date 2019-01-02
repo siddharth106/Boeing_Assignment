@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 
 public class Counttimes {
-    public static ArrayList<String> count1(String st1[]){
+    public static ArrayList<String> total(String st1[]){
         HashMap<String,Integer>hm=new HashMap();
 
 

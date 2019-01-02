@@ -23,7 +23,7 @@ public class NameArrayTest {
         ar.add("Berry");
         ArrayList<String> pr=(ArrayList<String>) ar.clone();
         pr.set(2,"Mango");
-        assertArrayEquals(pr.toArray(),NameArray.namearray(ar,"Molon","Mango").toArray());
+        assertArrayEquals(pr.toArray(),NameArray.nameArr(ar,"Molon","Mango").toArray());
     }
 
     @Test

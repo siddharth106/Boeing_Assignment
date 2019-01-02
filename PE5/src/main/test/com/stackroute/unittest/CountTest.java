@@ -11,6 +11,6 @@ public class CountTest {
 
 
 
-        assertArrayEquals(new String[]{"one:5","two:2","three:2"},Count.count1("one one -one___two,,three,one @three*one?two"));
+        assertArrayEquals(new String[]{"one:5","two:2","three:2"},Count.times("one one -one___two,,three,one @three*one?two"));
     }
 }

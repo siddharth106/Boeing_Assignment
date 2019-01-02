@@ -1,7 +1,7 @@
 
 import java.util.*;
 public class Palindrome {
-    public static boolean[]  Ispalindrome(String s){
+    public static boolean[]  isPalindrome(String s){
 
         boolean val[]=new boolean[2];
         if((checkpalindrome(s)==true)){

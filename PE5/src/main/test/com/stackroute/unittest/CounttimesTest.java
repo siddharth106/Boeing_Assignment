@@ -14,6 +14,6 @@ public class CounttimesTest {
         ArrayList<String>pr=new ArrayList();
 
 
-        assertArrayEquals(new String[]{"a:true","b:false","c:true","d:false"},Counttimes.count1(new String[]{"a","b","c","d","a","c","c"}).toArray());
+        assertArrayEquals(new String[]{"a:true","b:false","c:true","d:false"},Counttimes.total(new String[]{"a","b","c","d","a","c","c"}).toArray());
     }
 }

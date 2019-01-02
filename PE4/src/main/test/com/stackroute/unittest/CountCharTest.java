@@ -8,7 +8,7 @@ public class CountCharTest {
 
     @Test
     public void countchar() {
-        assertEquals(4, CountChar.countchar("aberrtrre",'r'));
-        assertEquals(3, CountChar.countchar("effgtyjnffhyyt",'y'));
+        assertEquals(4, CountChar.numtimeschar("aberrtrre",'r'));
+        assertEquals(3, CountChar.numtimeschar("effgtyjnffhyyt",'y'));
     }
 }

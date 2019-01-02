@@ -5,7 +5,7 @@ import java.util.*;
 public abstract class Asorder extends TreeSet<String> {
 
 
-    public  static String[] asorder1(String st2[]){
+    public  static String[] ascendingOrder(String st2[]){
         TreeSet<String>tr=new TreeSet(new Comparator<String>() {
 
             public int compare(String o1, String  o2) {

@@ -3,7 +3,7 @@ package com.stackroute.unittest;
 import java.util.*;
 
 public class NameArray {
-    public static ArrayList<String> namearray(ArrayList<String>ar,String a,String b ){
+    public static ArrayList<String> nameArr(ArrayList<String>ar,String a,String b ){
         int i=0;
         for(String g:ar){
             if(g.equals(a))
