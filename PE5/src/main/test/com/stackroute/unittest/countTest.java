@@ -1,4 +1,4 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import org.junit.Test;
 
@@ -11,6 +11,6 @@ public class countTest {
 
 
 
-        assertArrayEquals(new String[]{"one:5","two:2","three:2"},count.count1("one one -one___two,,three,one @three*one?two"));
+        assertArrayEquals(new String[]{"one:5","two:2","three:2"},Count.count1("one one -one___two,,three,one @three*one?two"));
     }
 }

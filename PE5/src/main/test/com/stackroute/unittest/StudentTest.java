@@ -1,4 +1,4 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import org.junit.Test;
 
@@ -13,8 +13,8 @@ public class StudentTest {
     public void asorder1() {
         Student re1[]=new Student[1];
         Student re2[]=new Student[1];
-        ArrayList<Student> st1 = new ArrayList<>();
-        ArrayList<Student> st2 = new ArrayList<>();
+        ArrayList<Student> st1 = new ArrayList();
+        ArrayList<Student> st2 = new ArrayList();
         Student st = new Student();
         st.setAge(12);
         st.setId(4);
@@ -89,10 +89,10 @@ public class StudentTest {
 //        for(Student st5:st1){
 //            System.out.println(st5.getAge()+" "+st5.getName()+" "+st5.getId());
 //        }
-        ArrayList<Integer>ar7=new ArrayList<>();
+        ArrayList<Integer>ar7=new ArrayList();
         ar7.add(2);
         ar7.add(3);
-        ArrayList<Integer>ar8=new ArrayList<>();
+        ArrayList<Integer>ar8=new ArrayList();
         ar8.add(5);
         ar8.add(3);
         Integer ar3[]={1,2,3,4};

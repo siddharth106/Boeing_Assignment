@@ -1,4 +1,4 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import org.junit.Test;
 
@@ -14,6 +14,6 @@ public class counttimesTest {
         ArrayList<String>pr=new ArrayList();
 
 
-        assertArrayEquals(new String[]{"a:true","b:false","c:true","d:false"},counttimes.count1(new String[]{"a","b","c","d","a","c","c"}).toArray());
+        assertArrayEquals(new String[]{"a:true","b:false","c:true","d:false"},Counttimes.count1(new String[]{"a","b","c","d","a","c","c"}).toArray());
     }
 }

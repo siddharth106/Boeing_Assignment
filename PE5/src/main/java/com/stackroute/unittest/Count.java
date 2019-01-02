@@ -1,9 +1,9 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import java.util.ArrayList;
 import java.util.*;
 
-public class count {
+public class Count {
 
     public static String[] count1(String str){
 

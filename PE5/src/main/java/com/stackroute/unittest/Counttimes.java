@@ -1,12 +1,12 @@
-package com.stackroute.unittest.pe1;
+package com.stackroute.unittest;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
 
-public class counttimes {
+public class Counttimes {
     public static ArrayList<String> count1(String st1[]){
-        HashMap<String,Integer>hm=new HashMap<>();
+        HashMap<String,Integer>hm=new HashMap();
 
 
 
@@ -19,7 +19,7 @@ public class counttimes {
                 ar.add(k);
             }
         }
-        ArrayList<String>arr=new ArrayList<>();
+        ArrayList<String>arr=new ArrayList();
 
         for(String k:ar){
             if(hm.get(k)>=2){
