@@ -1,6 +1,6 @@
 package com.stackroute.unittest.pe1;
 
-public class WOrdOccurence {
+public class Wordoccurence {
     public static int occurence(String s,String seq){
         int count=0;
                      for(int i=0;i<=s.length()-seq.length();i++){

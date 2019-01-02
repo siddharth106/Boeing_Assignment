@@ -2,7 +2,7 @@ package com.stackroute.unittest.pe1;
 
 import java.util.Arrays;
 
-public class revword {
+public class Revword {
 
     public static String sort(String a){
 
