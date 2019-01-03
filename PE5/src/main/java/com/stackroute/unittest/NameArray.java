@@ -3,19 +3,25 @@ package com.stackroute.unittest;
 import java.util.*;
 
 public class NameArray {
-    public static ArrayList<String> nameArr(ArrayList<String>ar,String a,String b ){
-        int i=0;
-        for(String g:ar){
-            if(g.equals(a))
-                ar.set(i,b);
-                i++;
+    public static ArrayList<String> replaceName(ArrayList<String>nameArray,String original,String newOne){
+        if(nameArray==null)
+            return null;
+        if(nameArray.isEmpty())
+            return null;
+        int index=0;
+        for(String g:nameArray){
+            if(g.equals(original))
+                nameArray.set(index,newOne);
+                index++;
         }
 
-         return ar;
+         return nameArray;
     }
-    public static ArrayList<String> emptylist(ArrayList<String>ar){
-          ar.clear();
-        return ar;
+    public static ArrayList<String> emptylist(ArrayList<String>nameArray){
+        if(nameArray==null)
+            return null;
+          nameArray.clear();
+        return nameArray;
     }
 
 }

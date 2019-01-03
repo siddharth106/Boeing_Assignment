@@ -5,27 +5,35 @@ import java.util.*;
 
 public class Count {
 
-    public static String[] times(String str){
-
-        Hashtable<String,Integer>hm=new Hashtable();
-
-        String st1[]=str.split("[^a-z]+");
-        ArrayList<String>ar=new ArrayList();
-        for(String k:st1){
-            if(hm.containsKey(k))
-                hm.put(k,hm.get(k)+1);
+    public static String[] wordCount(String stringOfSentence){
+               if(stringOfSentence==null)
+                   return null;
+                if(stringOfSentence.length()==0)
+                    return null;
+        Hashtable<String,Integer>wordTable=new Hashtable();
+        if((String.valueOf(stringOfSentence.charAt(0))).matches("[^a-z]"))
+       stringOfSentence= stringOfSentence.replaceFirst("[^a-z]","");
+        if(stringOfSentence.length()==0)
+            return null;
+     //  System.out.println(stringOfSentence);
+        String wordArray[]=stringOfSentence.split("[^a-z]+");
+        ArrayList<String>arrayOfWord=new ArrayList();
+        for(String k:wordArray){
+            if(wordTable.containsKey(k))
+                wordTable.put(k,wordTable.get(k)+1);
               else{
-                hm.put(k,1);
-              ar.add(k);
+                wordTable.put(k,1);
+              arrayOfWord.add(k);
               }
         }
-        String arr[]=new String[hm.size()];
+        String wordWithCount[]=new String[wordTable.size()];
         int i=0;
-         for(String k:ar){
-                    arr[i]=k+":"+hm.get(k);
-                    System.out.println(arr[i]);
+         for(String k:arrayOfWord){
+
+                    wordWithCount[i]=k+":"+wordTable.get(k);
+                   // System.out.println(wordWithCount[i]);
                     i++;
          }
-return arr;
+return wordWithCount;
     }
 }

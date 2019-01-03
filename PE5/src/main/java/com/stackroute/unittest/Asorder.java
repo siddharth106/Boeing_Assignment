@@ -2,22 +2,24 @@ package com.stackroute.unittest;
 
 import java.util.*;
 
-public abstract class Asorder extends TreeSet<String> {
+public  class Asorder extends TreeSet<String> {
 
 
-    public  static String[] ascendingOrder(String st2[]){
-        TreeSet<String>tr=new TreeSet(new Comparator<String>() {
+    public  static String[] ascendingOrder(String name[]){
+        if(name==null||name.length==0)
+            return null;
+        TreeSet<String>nameTree=new TreeSet(new Comparator<String>() {
 
             public int compare(String o1, String  o2) {
                return o1.compareTo(o2);
             }
         });
 
-           for(String b:st2)
-               tr.add(b);
+           for(String nam:name)
+               nameTree.add(nam);
 
 
-return tr.toArray(st2);
+return nameTree.toArray(name);
 
     }
 }

@@ -1,5 +1,7 @@
 package com.stackroute.unittest;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -9,10 +11,13 @@ import static org.junit.Assert.*;
 
 public class StudentTest {
 
+    @Before
+    public void setUp() throws Exception {
+    }
+
     @Test
     public void asorder1() {
-        Student re1[]=new Student[1];
-        Student re2[]=new Student[1];
+
         ArrayList<Student> st1 = new ArrayList();
         ArrayList<Student> st2 = new ArrayList();
         Student st = new Student();
@@ -20,7 +25,7 @@ public class StudentTest {
         st.setId(4);
         st.setName("rahul");
         st1.add(st);
-        re1[0]=st;  re2[0]=st;
+
         st = new Student();
         st.setAge(12);
         st.setId(13);
@@ -82,28 +87,13 @@ public class StudentTest {
         Student st4[]=new Student[5];
 
 
-
-//        for(Student st5:st2){
-//            System.out.println(st5.getAge()+" "+st5.getName()+" "+st5.getId());
-//        }
-//        for(Student st5:st1){
-//            System.out.println(st5.getAge()+" "+st5.getName()+" "+st5.getId());
-//        }
-        ArrayList<Integer>ar7=new ArrayList();
-        ar7.add(2);
-        ar7.add(3);
-        ArrayList<Integer>ar8=new ArrayList();
-        ar8.add(5);
-        ar8.add(3);
-        Integer ar3[]={1,2,3,4};
-        Integer ar4[]={1,2,3,4};
-        assertEquals(re1,re2);
-        Student re[]=new Student[2];
-
-        //assertEquals(Arrays.toString(st1.toArray(st4)),Arrays.toString(st2.toArray(st4)));
-
-        assertEquals(st1.toArray(st4),st2.toArray(st4));
+        assertEquals((st1.toArray(st4)).toString(),(st2.toArray(st4)).toString());
     }
 
 
+
+
+    @After
+    public void tearDown() throws Exception {
+    }
 }
